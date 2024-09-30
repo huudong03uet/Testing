@@ -65,6 +65,7 @@ class TestTaxiFareCalculator:
 
     def test_tc18(self):
         assert self.taxi_fare_calculator.calculate_fare(0, 2) == 36000
+        
     def test_tc19(self):
         assert self.taxi_fare_calculator.calculate_fare(10, 2) == 252000
 
