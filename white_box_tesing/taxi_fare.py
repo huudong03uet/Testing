@@ -31,5 +31,5 @@ class TaxiFareCalculator:
 
 if __name__ == "__main__":
     calculator = TaxiFareCalculator()
-    fare = calculator.calculate_fare(100, 2)
+    fare = calculator.calculate_fare(0.5, 1)
     print(fare)
